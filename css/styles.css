@@ -1,0 +1,199 @@
+/* whole page */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #1a1a1a;
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+h2, h4 {
+  color: darkslategrey;
+  padding: 1rem 0;
+}
+p {
+  margin: 1rem;
+}
+section {
+  padding: 1rem 10%;
+}
+.hero, footer {
+  background-image: url("../images/topo-map3.png");
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
+/* hero section */
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.jw-icon img{
+  width: 40%;
+  height: 25%;
+}
+.hero-content p {
+  padding-bottom: 1rem;
+}
+.view-my-work {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color:white;
+  background-color: darkslategrey;
+  opacity: 0.8;
+
+}
+/* nav bar */
+.navbar {
+  background-color: black;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 1rem;
+  padding: 1.5rem;
+}
+.navigation-item {
+  display: inline;
+  padding: 0 5%;
+}
+.navigation-item a {
+  color: darkslategrey;
+  font-weight: 800;
+
+}
+/* projects section */
+.projects h4 {
+ color: white;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 5% 5%;
+  margin: 10vh auto 10vh auto;
+  align-items: center;
+  justify-content: center;
+}
+.project-description-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#roll20-project {
+  background-image: url(../images/redwaves.png);
+  background-size: 100%;
+  border-radius: 0.5rem;
+  background-position: center;
+  background-size: cover;
+  min-width: 250px;
+}
+#fierceGuerrilla-project {
+  flex-direction: row-reverse;
+  background-image: url(../images/rivers.png);
+  border-radius: 0.5rem;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  min-width: 250px;
+}
+#jw-project {
+  background-image: url(../images/peaks.png);
+  background-size: 100%;
+  border-radius: 0.5rem;
+  background-position: center;
+  background-size: cover;
+  min-width: 250px;
+
+}
+.Roll20hf-logo, .computer-editting-gif, .gaming-gif  {
+  width: 15vw;
+  flex-direction: row;
+  max-width: 200px;
+}
+.project-details {
+}
+.project-heading {
+padding-bottom: 1rem;
+margin: 0;
+}
+
+/* about section */
+.about {
+  background-image: url(../images/topo-map3.png);
+  background-position: center;
+}
+.about-row {
+  margin: 40px auto 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.about-headings {
+  color: darkslategrey;
+}
+.jpic {
+  width: 250px;
+  border-radius: 0.4rem;
+}
+.about-details {
+  display: table-cell;
+  margin: 1rem 0 0 1rem;
+  max-width: 500px;
+  flex: 25%;
+  background-color: darkslategrey;
+  opacity: 0.8;
+  border-radius: 0.3rem;
+padding: 0.5rem;
+}
+
+.skill-icon {
+  max-width: 80px;
+  padding: auto 1rem;
+}
+
+/* contact section */
+.contact {
+  clear: both;
+  display: block;
+}
+.email-header {
+  color: #484848;
+}
+.email-button {
+  background-color: darkslategrey;
+  border-color: #484848;
+  color: white;
+}
+.connect-link {
+  width: 50px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+
+}
+.social-icon {
+  max-width: 5%;
+  min-width: 50px;
+}
+
+/* you guessed it */
+
+footer p {
+  margin: 0;
+  padding: 1rem;
+}
