@@ -98,7 +98,7 @@ section {
   background-size: cover;
   min-width: 250px;
 }
-#fierceGuerrilla-project {
+#rvrs-project {
   flex-direction: row-reverse;
   background-image: url(../images/rivers.png);
   border-radius: 0.5rem;
@@ -116,7 +116,7 @@ section {
   min-width: 250px;
 
 }
-.Roll20hf-logo, .computer-editting-gif, .gaming-gif  {
+.Roll20hf-logo, .computer-editting-gif, .rock-gif  {
   width: 15vw;
   flex-direction: row;
   max-width: 200px;
